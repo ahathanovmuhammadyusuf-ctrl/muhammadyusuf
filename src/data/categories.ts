@@ -1,0 +1,60 @@
+import { CategoryDef } from '../types';
+
+export const CATEGORIES: CategoryDef[] = [
+  {
+    key: 'work',
+    label: 'Ish',
+    icon: '💼',
+    color: 'from-blue-500 to-indigo-600 text-blue-400 border-blue-500/30',
+    bgLight: 'bg-blue-50 text-blue-700 border-blue-200',
+    bgDark: 'bg-blue-950/40 text-blue-300 border-blue-800/40',
+  },
+  {
+    key: 'study',
+    label: "O'qish",
+    icon: '📚',
+    color: 'from-purple-500 to-violet-600 text-purple-400 border-purple-500/30',
+    bgLight: 'bg-purple-50 text-purple-700 border-purple-200',
+    bgDark: 'bg-purple-950/40 text-purple-300 border-purple-800/40',
+  },
+  {
+    key: 'home',
+    label: 'Uy',
+    icon: '🏠',
+    color: 'from-amber-500 to-orange-600 text-amber-400 border-amber-500/30',
+    bgLight: 'bg-amber-50 text-amber-700 border-amber-200',
+    bgDark: 'bg-amber-950/40 text-amber-300 border-amber-800/40',
+  },
+  {
+    key: 'health',
+    label: "Sog'liq",
+    icon: '💪',
+    color: 'from-emerald-500 to-teal-600 text-emerald-400 border-emerald-500/30',
+    bgLight: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    bgDark: 'bg-emerald-950/40 text-emerald-300 border-emerald-800/40',
+  },
+  {
+    key: 'family',
+    label: 'Oila',
+    icon: '👨‍👩‍👧',
+    color: 'from-rose-500 to-pink-600 text-rose-400 border-rose-500/30',
+    bgLight: 'bg-rose-50 text-rose-700 border-rose-200',
+    bgDark: 'bg-rose-950/40 text-rose-300 border-rose-800/40',
+  },
+  {
+    key: 'shopping',
+    label: 'Xarid',
+    icon: '🛒',
+    color: 'from-fuchsia-500 to-pink-500 text-fuchsia-400 border-fuchsia-500/30',
+    bgLight: 'bg-fuchsia-50 text-fuchsia-700 border-fuchsia-200',
+    bgDark: 'bg-fuchsia-950/40 text-fuchsia-300 border-fuchsia-800/40',
+  },
+  {
+    key: 'other',
+    label: 'Boshqa',
+    icon: '✨',
+    color: 'from-cyan-500 to-blue-500 text-cyan-400 border-cyan-500/30',
+    bgLight: 'bg-cyan-50 text-cyan-700 border-cyan-200',
+    bgDark: 'bg-cyan-950/40 text-cyan-300 border-cyan-800/40',
+  },
+];

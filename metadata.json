@@ -1,0 +1,6 @@
+{
+  "name": "KunReja - Kunlik Ish Rejasi",
+  "description": "KunReja - Jonli, interaktiv va zamonaviy kunlik ish rejasi boshqaruv tizimi. 45+ tillar, jonli fon, 3D kartochkalar, statistikalar va sun'iy intellekt tarjimoni.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
